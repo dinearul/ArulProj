@@ -1,0 +1,10 @@
+{
+    "city": "Chennai",
+    "state": "TN",
+    "pinCode": 600042,
+    "address": {
+        "street": "Bhuvaneswari 2nd main road",
+        "area": "velachery",
+        "houseNo": 155
+    }
+}
