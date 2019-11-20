@@ -6,7 +6,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.1.RELEASE</version>
 		<relativePath /> 
-		<!-- poda -->
+		<!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.karthik</groupId>
