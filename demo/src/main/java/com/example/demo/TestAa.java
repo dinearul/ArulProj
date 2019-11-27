@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class TestAa {
 
-    @GetMapping("/nameage")
+    @GetMapping(value="/nameage",produces = {MediaType.TEXT_PLAIN_VALUE})
     public String nameAge(@RequestParam String name, @RequestParam int age) {
 
         String res = "Name :" + name + "\n" + "Age :" + age + "\n";
         String ress = "Name :" + name + "Age :" + age;
-        return res + ress;
+        return res + ress + "Name :" + name + "Age :" + age + "Name :" + name + "Age :" + age  + ress;
     }
 
-    @PostMapping(value= "/addr",  consumes = { MediaType.APPLICATION_XML_VALUE }, produces = {
+    @PostMapping(value= "/addr",  consumes = { MediaType.APPLICATION_JSON_VALUE }, produces = {
         MediaType.APPLICATION_JSON_VALUE })
     public Locationresponse cityState(@RequestBody LocationRequest locationRequest) {
         Locationresponse locationresponse = new Locationresponse();
@@ -52,3 +52,5 @@ public class TestAa {
     }
 
 }
+
+
