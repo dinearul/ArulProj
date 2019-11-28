@@ -10,11 +10,10 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class BeanConfigurations {
 
-	@Bean	
+	@Bean
 	@Primary
 	@LoadBalanced
 	@Qualifier("internal")
-	
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}

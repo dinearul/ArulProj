@@ -19,8 +19,9 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @Slf4j
 public class KarthikClientService {
-  @Autowired
+  @Autowired  
   RestTemplate restTemplate;
+  
   @Value("${demo.uri}")
   private String uri;
   @Value("${demo.uri2}")
