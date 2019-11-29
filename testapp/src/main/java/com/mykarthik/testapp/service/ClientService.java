@@ -1,4 +1,4 @@
-package com.mykarthik.testapp;
+package com.mykarthik.testapp.service;
 
 import com.mykarthik.testapp.model.LocationRequest;
 import com.mykarthik.testapp.model.LocationRequest.Address;
@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class KarthikClientService {
+public class ClientService {
   @Autowired  
   RestTemplate restTemplate;
   
