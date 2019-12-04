@@ -14,7 +14,7 @@ import lombok.Setter;
 @JsonInclude(Include.NON_EMPTY)
 public class LocationRequest {
 
-
+//test1
     private String city;
     private String state;
     private int pinCode;
