@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/nal")
 public class NalController {
-
+//test
     @GetMapping("per")
     public String per(@RequestParam("name") String peru, @RequestParam int age) {
 
@@ -16,3 +16,4 @@ public class NalController {
         return d;
     }
 }
+//te
