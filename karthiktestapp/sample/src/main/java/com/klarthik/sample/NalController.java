@@ -11,6 +11,8 @@ public class NalController {
 
     @GetMapping("per")
     public String per(@RequestParam("name") String peru, @RequestParam int age) {
+        
+        //newnew
 
         String d = "Hello " + peru + " And age is " + age;
         return d;
