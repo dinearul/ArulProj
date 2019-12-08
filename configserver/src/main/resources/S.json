@@ -1,0 +1,8 @@
+{
+    "git": {
+        "uri": "https://github.com/sundarkarthik/config.git"
+    },
+    "encrypt": {
+        "key": "SundarKey"
+    }
+}
